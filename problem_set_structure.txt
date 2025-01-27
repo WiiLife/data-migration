@@ -1,0 +1,16 @@
+assignment 1 & 2:
+    -have to run drop_models.sql --> models.sql --> models_insert_values.sql first on sql oracle
+    -insert_prescriptions.py (inserts 10 normal and repeatable prescriptions using SQLAlchemy)
+    -prescription_queries.py (test out some simple queries with SQLAlchemy)
+    -migration_script.py (copies data in a mongo db local database)
+    -query_document_db.py (test out some simple queries qith pymongo)
+
+    models.py & test_queries_alchemy.py are python files to deal with smaller files
+
+assignment 3:
+    -have to run drop_models.sql --> models.sql --> models_insert_values.sql first on sql oracle
+    -insert_query_prescriptions_time_analysis.py (analyzes insertion and querying of 1000 prescriptions 100 times using a SQL solution)
+    -pymongo_prescription_insertion_querying_time_analysis.py (analyzes insertion and querying of 1000 prescriptions 100 times using a NoSQL solution)
+
+Other files are for the environment and database accessibility (config.ini password value will be deleted on submission)
+
